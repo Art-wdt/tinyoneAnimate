@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: #fcdb00;
+    font-family: 'PT Sans', sans-serif;
+    color: #010101;
+}
+
+.header {
+    padding-top: 50px;
+}
+
+nav .navbar.navbar-light {
+    background-color: #fcdb00;
+}
+
+.navbar-nav .nav-item {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    padding-left: 25px;
+}
+
+.heroImage {
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+
+.heroImage h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.special {
+    font-size: 20px;
+    color: #313841;
+}
+
+.heroImage p {
+    color: #555555;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.heroImage a {
+    color: #010101;
+    font-size: 42px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.heroImage a:hover {
+    color: #aaa;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.features {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #fff;
+}
+
+.features h1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.features .special {
+    margin-bottom: 80px;
+}
+
+.features .col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.touch {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #010101;
+    color: #898989;
+    font-size: 20px;
+
+}
+
+.touch h1 {
+    color: #fcdb00;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.btn-warning {
+    background-color: #fcdb00;
+    font-weight: 700;
+}
+
+.footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fcdb00;
+}
+
+.footer a {
+    color: #010101;
+    font-size: 35px;
+    padding: 10px 20px;
+}
+
+.footer a:hover {
+    color: #aaa;
+}
